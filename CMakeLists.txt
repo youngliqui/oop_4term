@@ -3,4 +3,4 @@ project(oop_4term)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(oop_4term lab1/Main.cpp lab1/Matrix.cpp lab1/Matrix.h lab2/Main.cpp)
+add_executable(oop_4term lab1/Main.cpp lab1/Matrix.cpp lab1/Matrix.h lab2/Main.cpp lab2/Point.h lab2/Point.cpp)

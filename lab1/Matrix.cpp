@@ -74,7 +74,7 @@ void Matrix::printMatrix() const {
  * std::move(matrix) гарантирует перемещение значения matrix в this->matrix без лишних копирований.
  * @param matrix
  */
-void Matrix::setMatrix(std::vector<std::vector<int>> matrix) {
+void Matrix::setMatrix(std::vector<std::vector<int>>& matrix) {
     this->matrix = std::move(matrix);
 }
 

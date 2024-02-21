@@ -15,7 +15,7 @@ public:
     ~Matrix();
     int getRows() const;
     int getColumns() const;
-    void setMatrix(std::vector<std::vector<int>> matrix);
+    void setMatrix(std::vector<std::vector<int>>& matrix);
     long getSumBetweenFirstAndSecondPositive();
     void printMatrix() const;
 
