@@ -64,11 +64,11 @@ Line *Line::operator-(const Line &line) const {
     return new Line(a - line.getA(), b - line.getB(), c - line.getC());
 }
 
-Line *Line::operator*(int scalar) const {
-    return new Line(a * (float) scalar, b * (float) scalar, c * (float) scalar);
+Line *Line::operator*(float scalar) const {
+    return new Line(a * scalar, b * scalar, c * scalar);
 }
 
-Line *Line::operator/(int scalar) const {
-    return new Line(a / (float) scalar, b / (float) scalar, c / (float) scalar);
+Line *Line::operator/(float scalar) const {
+    return new Line(a / scalar, b / scalar, c / scalar);
 }
 

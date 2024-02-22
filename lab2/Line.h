@@ -40,9 +40,9 @@ public:
 
     Line *operator-(const Line &line) const;
 
-    Line *operator/(int scalar) const;
+    Line *operator/(float scalar) const;
 
-    Line *operator*(int scalar) const;
+    Line *operator*(float scalar) const;
 
 private:
     float a, b, c;
